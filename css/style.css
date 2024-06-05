@@ -1,0 +1,86 @@
+@import url("https://cdn.web-fonts.ge/fonts/alk-life/css/alk-life.min.css");
+
+.kartuli-absoluturi {
+  font-family: "ALK Life", sans-serif;
+  text-align: right;
+}
+.kartuli-relatiuri {
+  font-family: "ALK Rex Bold";
+}
+.text {
+  width: 350px;
+  background-color: lightskyblue;
+  text-align: justify;
+  font-style: italic;
+}
+
+/* header styles */
+.navigation {
+  display: inline-block;
+}
+.nav-li {
+  display: inline-block;
+}
+.header-element {
+  background-color: lightblue;
+  padding: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.header-wraper {
+  height: 76px;
+}
+
+/* asbolute & relative  */
+.wraper {
+  width: 600px;
+  height: 600px;
+  background-color: lightsalmon;
+  position: relative;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: blueviolet;
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  z-index: 2;
+}
+.box2 {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  position: absolute;
+  top: 80px;
+  left: 200px;
+  z-index: 3;
+}
+
+/* chat icon */
+
+.image-chat-icon {
+  height: 100px;
+}
+.chat-icon {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+
+/* image example */
+.title-image {
+    position: absolute;
+    top: 100px;
+    right: 150px;
+    font-size: 30px;
+    color:brown;
+}
+.image-wraper {
+    position: relative;
+    display: inline-block;
+}
